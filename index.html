@@ -23,7 +23,7 @@
             margin: 0 .5rem !important;
         }
         
-        input {
+        input[type="text"] {
             width: 15rem !important;
             margin-left: .5rem !important;
             margin-right: .5rem !important;
@@ -35,21 +35,21 @@
     </style>
     <body>
         <h3>Input</h3>
-        <input class="neu" placeholder="Input">
-        <input class="neu medium" placeholder="Input medium">
-        <input class="neu small" placeholder="Input small">
+        <input class="neu" type="text" placeholder="Input">
+        <input class="neu medium" type="text" placeholder="Input medium">
+        <input class="neu small" type="text" placeholder="Input small">
         <br>
-        <input class="neu neu-error" placeholder="Input error">
-        <input class="neu medium neu-error" placeholder="Input medium error">
-        <input class="neu small neu-error" placeholder="Input small error">
+        <input class="neu neu-error" type="text" placeholder="Input error">
+        <input class="neu medium neu-error" type="text" placeholder="Input medium error">
+        <input class="neu small neu-error" type="text" placeholder="Input small error">
         <br>
-        <input class="neu" placeholder="Input disabled" disabled>
-        <input class="neu medium" placeholder="Input medium disabled" disabled>
-        <input class="neu small" placeholder="Input small disabled" disabled>
+        <input class="neu" placeholder="Input disabled" type="text" disabled>
+        <input class="neu medium" placeholder="Input medium disabled" type="text" disabled>
+        <input class="neu small" placeholder="Input small disabled" type="text" disabled>
         <br>
-        <input class="neu" value="Input read only" readonly>
-        <input class="neu medium" value="Input medium read only" readonly>
-        <input class="neu small" value="Input small read only" readonly>
+        <input class="neu" value="Input read only" type="text" readonly>
+        <input class="neu medium" value="Input medium read only" type="text" readonly>
+        <input class="neu small" value="Input small read only" type="text" readonly>
 
         <h3>Div</h3>
         <div style="display: flex;">
@@ -80,6 +80,19 @@
             <button class="neu round">+</button>
             <button class="neu round primary">+</button>
             <button class="neu round-small">+</button>
+        </div>
+
+        <h3>Checkbox</h3>
+        <div>
+            <label>
+                <input type="checkbox" name="checkbox" [checked]="checked">
+                One
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="checkbox" [checked]="checked">
+                Two
+            </label>
         </div>
     </body>
 </html>
