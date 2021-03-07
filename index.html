@@ -9,8 +9,77 @@
         <meta name="author" content="Edvardas Jusius">
 
         <title>Neumorphism style</title>
-    </head>
-    <body>
 
+        <link href="./neu-style.css" rel="stylesheet">
+    </head>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0 1rem;
+        }
+
+        button {
+            margin: 0 .5rem !important;
+        }
+        
+        input {
+            width: 15rem !important;
+            margin-left: .5rem !important;
+            margin-right: .5rem !important;
+        }
+
+        div {
+            margin: .5rem !important;
+        }
+    </style>
+    <body>
+        <h3>Input</h3>
+        <input class="neu" placeholder="Input">
+        <input class="neu medium" placeholder="Input medium">
+        <input class="neu small" placeholder="Input small">
+        <br>
+        <input class="neu neu-error" placeholder="Input error">
+        <input class="neu medium neu-error" placeholder="Input medium error">
+        <input class="neu small neu-error" placeholder="Input small error">
+        <br>
+        <input class="neu" placeholder="Input disabled" disabled>
+        <input class="neu medium" placeholder="Input medium disabled" disabled>
+        <input class="neu small" placeholder="Input small disabled" disabled>
+        <br>
+        <input class="neu" value="Input read only" readonly>
+        <input class="neu medium" value="Input medium read only" readonly>
+        <input class="neu small" value="Input small read only" readonly>
+
+        <h3>Div</h3>
+        <div style="display: flex;">
+            <div class="neu neu-shadow-out">
+                Text in div box<br>
+                with outer shadow
+            </div>
+            <div class="neu neu-shadow-in">Div with inner shadow</div>
+        </div>
+        <div style="display: flex;">
+            <div class="neu neu-shadow-out">
+                <h4>Inner shadow box inside</h4>
+                <div class="neu neu-shadow-in">Div with inner shadow</div>
+                <div class="neu neu-shadow-in">Div with inner shadow</div>
+            </div>
+            <div class="neu neu-shadow-in">
+                <h4>Outer shadow box inside</h4>
+                <div class="neu neu-shadow-out">Div with inner shadow</div>
+                <div class="neu neu-shadow-out">Div with inner shadow</div>
+            </div>
+        </div>
+
+        <h3>Button</h3>
+        <div style="display: flex;">
+            <button class="neu primary">Primary</button>
+            <button class="neu">Simple</button>
+            <button class="neu small">Small</button>
+            <button class="neu round">+</button>
+            <button class="neu round primary">+</button>
+            <button class="neu round-small">+</button>
+        </div>
     </body>
 </html>

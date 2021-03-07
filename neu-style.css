@@ -7,6 +7,12 @@
     --neu-white: #FFFFFF;
 }
 
+html,
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #EBECF0;
+}
+
 .neu-back {
     background: #EBECF0;
 }
@@ -122,8 +128,73 @@ button.neu.round-small {
     padding: .5rem;
     font-size: .7rem;
     width: 2.2rem;
-    height: 2rem;
+    height: 2.2rem;
     vertical-align: middle;
     box-shadow: -1px -1px 2px #FFFFFF,
                 1px 1px 2px #BABECC;
+}
+
+input.neu,
+select.neu,
+textarea.neu {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: inset 2px 2px 2px #BABECC,
+                inset -2px -2px 2px #FFFFFF;
+}
+
+input.neu:focus,
+select.neu:focus,
+textarea.neu:focus {
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #FFFFFF;
+}
+
+input.neu:read-only:focus,
+select.neu:read-only:focus,
+textarea.neu:read-only:focus {
+    box-shadow: inset 2px 2px 2px #BABECC,
+                inset -2px -2px 2px #FFFFFF;
+}
+
+input.neu.neu-error,
+select.neu.neu-error,
+textarea.neu.neu-error {
+    border: 2px solid rgb(179, 0, 0);
+}
+
+input.neu.medium,
+textarea.neu.medium {
+    font-size: .8rem;
+    padding: .7rem 1rem;
+}
+
+input.neu.small {
+    margin-bottom: 0;
+    font-size: small;
+    padding: .5rem 1rem;
+}
+
+div.neu.text-display {
+    width: 100%;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #FFFFFF;
+}
+
+.neu-icon-circle {
+    background: #EBECF0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0;
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #FFFFFF;
 }
