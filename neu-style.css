@@ -1,0 +1,129 @@
+:root {
+    --neu-primary: #0D6EFD;
+    --neu-bg-color: #EBECF0;
+    --neu-gray: #AAAAAA;
+    --neu-blue: #61677C;
+    --neu-shadow: #BABECC;
+    --neu-white: #FFFFFF;
+}
+
+.neu-back {
+    background: #EBECF0;
+}
+
+.neu-shadow-out {
+    background: #EBECF0;
+    box-shadow: -2px -2px 2px #FFFFFF,
+                2px 2px 2px #BABECC;
+}
+
+.neu-shadow-in {
+    background: #EBECF0;
+    box-shadow: inset 2px 2px 2px #BABECC,
+                inset -2px -2px 2px #FFFFFF;
+}
+
+a.neu {
+    color: #AAAAAA;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+label.neu {
+    color: gray;
+}
+
+div.neu-info, span.neu-info, i.neu-info {
+    text-align: center;
+    color:#AAAAAA;
+    font-size: 12px;
+}
+
+div.neu-info {
+    padding-top: 20px;
+}
+
+input.neu,
+button.neu,
+select.neu,
+div.neu,
+textarea.neu {
+    border: 0;
+    outline: 0;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background: #EBECF0;
+}
+
+input.neu,
+select.neu,
+button.neu {
+    font-size: 1rem;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+button.neu {
+    cursor: pointer;
+    color: #61677C;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: -2px -2px 2px #FFFFFF,
+                2px 2px 2px #BABECC;
+}
+
+button.neu:hover {
+    box-shadow: -1px -1px 2px #FFFFFF,
+                1px 1px 2px #BABECC;
+}
+
+button.neu:active {
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #FFFFFF;
+}
+
+button.neu:disabled {
+    color: dimgray;
+    box-shadow: none;
+}
+
+button.neu.primary {
+    color: #0D6EFD;
+    text-shadow: none;
+}
+
+button.neu.primary:disabled {
+    color: dimgray;
+}
+
+button.neu.small {
+    font-size: .7rem;
+    padding: .5rem 1rem;
+    text-shadow: none;
+    min-width: 5rem;
+    margin: 0 .3rem;
+}
+
+button.neu.round {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+}
+
+button.neu.round-small {
+    padding: .5rem;
+    font-size: .7rem;
+    width: 2.2rem;
+    height: 2rem;
+    vertical-align: middle;
+    box-shadow: -1px -1px 2px #FFFFFF,
+                1px 1px 2px #BABECC;
+}
