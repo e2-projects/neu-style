@@ -199,13 +199,22 @@ div.neu.text-display {
                 inset -1px -1px 2px #FFFFFF;
 }
 
-label {
+label.neu {
     display: inline-block;
     cursor: pointer;
     padding: .56rem 0;
 }
 
-input[type=checkbox] {
+div.neu-line {
+    width: 95%;
+    height: 10px;
+    margin: 2rem auto;
+    border-radius: 1.5rem;
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #FFFFFF;
+}
+
+input[type=checkbox].neu {
     border-radius: 25%;
     font-size: 1rem;
     cursor: pointer;
@@ -236,7 +245,7 @@ input[type=checkbox] {
     background-color: initial;
 }
 
-input[type=checkbox]:checked {
+input[type=checkbox].neu:checked {
     box-shadow: 0 0 0.5em rgba(54, 123, 240, 0.7),
                 inset 0 -0.1em 0 rgba(0, 0, 0, 0.2),
                 inset 0 0.1em 0.1em rgba(255, 255, 255, 0.2);
