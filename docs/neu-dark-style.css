@@ -1,0 +1,264 @@
+:root {
+    --neu-dark-primary: #0D6EFD;
+    --neu-dark-bg-color: #424242;
+    --neu-dark-gray: #AAAAAA;
+    --neu-dark-blue: #61677C;
+    --neu-dark-shadow: #28282a;
+    --neu-dark-white: #505050;
+}
+
+html,
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #424242;
+}
+
+.neu-dark *,
+.neu-dark-back *,
+.neu-dark-shadow-out *,
+.neu-dark-shadow-in * {
+    color: white;
+}
+
+.neu-dark-back {
+    background: #424242;
+}
+
+.neu-dark-shadow-out {
+    background: #424242;
+    box-shadow: -2px -2px 2px #505050,
+                2px 2px 2px #28282a;
+}
+
+.neu-dark-shadow-in {
+    background: #424242;
+    box-shadow: inset 2px 2px 2px #28282a,
+                inset -2px -2px 2px #505050;
+}
+
+a.neu-dark {
+    color: #AAAAAA;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+label.neu-dark {
+    color: gray;
+}
+
+div.neu-dark-info, span.neu-dark-info, i.neu-dark-info {
+    text-align: center;
+    color:#AAAAAA;
+    font-size: 12px;
+}
+
+div.neu-dark-info {
+    padding-top: 20px;
+}
+
+input.neu-dark,
+button.neu-dark,
+select.neu-dark,
+div.neu-dark,
+textarea.neu-dark {
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    background: #424242;
+}
+
+input.neu-dark,
+select.neu-dark,
+button.neu-dark {
+    font-size: 1rem;
+    text-shadow: 1px 1px 0 #505050;
+}
+
+button.neu-dark {
+    cursor: pointer;
+    color: lightgrey;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: -2px -2px 2px #505050,
+                2px 2px 2px #28282a;
+}
+
+button.neu-dark:hover {
+    box-shadow: -1px -1px 2px #505050,
+                1px 1px 2px #28282a;
+}
+
+button.neu-dark:active {
+    box-shadow: inset 1px 1px 2px #28282a,
+                inset -1px -1px 2px #505050;
+}
+
+button.neu-dark:disabled {
+    color: dimgray;
+    box-shadow: none;
+}
+
+button.neu-dark.primary {
+    color: #0D6EFD;
+    text-shadow: none;
+}
+
+button.neu-dark.primary:disabled {
+    color: dimgray;
+}
+
+button.neu-dark.small {
+    font-size: .7rem;
+    padding: .5rem 1rem;
+    text-shadow: none;
+    min-width: 5rem;
+    margin: 0 .3rem;
+}
+
+button.neu-dark.round {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+}
+
+button.neu-dark.round-small {
+    padding: .5rem;
+    font-size: .7rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    vertical-align: middle;
+    box-shadow: -1px -1px 2px #505050,
+                1px 1px 2px #28282a;
+}
+
+input.neu-dark,
+select.neu-dark,
+textarea.neu-dark {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: inset 2px 2px 2px #28282a,
+                inset -2px -2px 2px #505050;
+}
+
+input.neu-dark:focus,
+select.neu-dark:focus,
+textarea.neu-dark:focus {
+    box-shadow: inset 1px 1px 2px #28282a,
+                inset -1px -1px 2px #505050;
+}
+
+input.neu-dark:read-only:focus,
+select.neu-dark:read-only:focus,
+textarea.neu-dark:read-only:focus {
+    box-shadow: inset 2px 2px 2px #28282a,
+                inset -2px -2px 2px #505050;
+}
+
+input.neu-dark.neu-error,
+select.neu-dark.neu-error,
+textarea.neu-dark.neu-error {
+    border: 2px solid rgb(179, 0, 0);
+}
+
+input.neu-dark.medium,
+textarea.neu-dark.medium {
+    font-size: .8rem;
+    padding: .7rem 1rem;
+}
+
+input.neu-dark.small {
+    margin-bottom: 0;
+    font-size: small;
+    padding: .5rem 1rem;
+}
+
+div.neu-dark.text-display {
+    width: 100%;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: inset 1px 1px 2px #28282a,
+                inset -1px -1px 2px #505050;
+}
+
+.neu-dark-icon-circle {
+    background: #424242;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0;
+    box-shadow: inset 1px 1px 2px #28282a,
+                inset -1px -1px 2px #505050;
+}
+
+label.neu-dark {
+    display: inline-block;
+    cursor: pointer;
+    padding: .56rem 0;
+}
+
+div.neu-dark-line {
+    width: 95%;
+    height: 10px;
+    margin: 2rem auto;
+    border-radius: 1.5rem;
+    box-shadow: inset 1px 1px 2px #28282a,
+                inset -1px -1px 2px #505050;
+}
+
+input[type=checkbox].neu-dark {
+    border-radius: 25%;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 .3rem;
+    box-shadow: 2px 2px 3px rgba(40, 40, 42, 0.2),
+                    -2px -2px 3px #505050,
+                    inset 1px 1px 2px rgba(40, 40, 42, 0.2),
+                    inset -1px -1px 2px #505050;
+    border: .15rem solid #424242;
+    vertical-align: text-bottom;
+    
+    outline: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    -webkit-touch-callout: none;
+    letter-spacing: 0;
+    overflow: inherit;
+
+    background-color: initial;
+}
+
+input[type=checkbox].neu-dark:checked {
+    box-shadow: 0 0 0.5em rgba(54, 123, 240, 0.7),
+                inset 0 -0.1em 0 rgba(0, 0, 0, 0.2),
+                inset 0 0.1em 0.1em rgba(255, 255, 255, 0.2);
+    border-width: .1rem;
+    border-color: #0D6EFD;
+    background-color: #0D6EFD;
+}
+
