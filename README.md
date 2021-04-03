@@ -20,7 +20,7 @@ https://e2-projects.github.io/neu-style/index.html
     <input class="neu" theme="dark" type="text" placeholder="Input">
 </div>
 ```
-![...](./pics/input.png?raw=true "inputs")<br><br>
+![...](https://github.com/e2-projects/neu-style/blob/master/pics/input.PNG?raw=true "inputs")<br><br>
 
 
 ``` html
@@ -31,6 +31,6 @@ https://e2-projects.github.io/neu-style/index.html
     <input class="neu-dark" type="text" placeholder="Input">
 </div>
 ```
-![...](./pics/dark-input.png?raw=true "inputs")<br><br>
+![...](https://github.com/e2-projects/neu-style/blob/master/pics/dark-input.PNG?raw=true "inputs")<br><br>
 
 &copy; Edvardas Jusius, 2021
