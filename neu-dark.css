@@ -43,7 +43,7 @@ a.neu-dark {
 }
 
 label.neu-dark {
-    color: gray;
+    color: #d3d3d3;
 }
 
 div.neu-dark-info, span.neu-dark-info, i.neu-dark-info {
@@ -234,7 +234,7 @@ input[type=checkbox].neu-dark {
                     inset 1px 1px 2px rgba(40, 40, 42, 0.2),
                     inset -1px -1px 2px #505050;
     border: .15rem solid #424242;
-    vertical-align: text-bottom;
+    vertical-align: middle;
     
     outline: none;
     user-select: none;
@@ -261,4 +261,3 @@ input[type=checkbox].neu-dark:checked {
     border-color: #0D6EFD;
     background-color: #0D6EFD;
 }
-
